@@ -1,0 +1,122 @@
+nom,niveau,categorie,evolution,capacite,icone,couleur
+Princesse,16,Troupe,0,0,🏹👸,#000000
+Chevalier,16,Troupe,1,1,⚔️🤴,#000000
+Arc X,15,Win condition,0,0,🎯🏹,#B173EB
+Fut de gobelins,15,Win condition,0,0,🛢️👹,#B173EB
+Gardes,15,Troupe,0,0,🛡️🗡️,#000000
+Flèches,15,Sort,0,0,🏹💨,#A9EAFE
+Gang de gobelins,15,Troupe,0,0,👹👹,#000000
+Artificière,15,Troupe,1,0,💣👧,#000000
+Canon,15,Bâtiment,0,0,🎯💣,#DF6D14
+Archers,15,Troupe,1,0,🏹🏹,#000000
+Gobelinstein,14,Troupe,0,1,🤖👹,#000000
+Roi squelette,14,Troupe,0,1,💀👑,#000000
+Cimetière,14,Win condition,0,0,⚰️👻,#B173EB
+Sorcier électrique,14,Troupe,0,0,⚡🧙,#000000
+Sorcière de la nuit,14,Troupe,0,0,🌙🧙‍♀️,#000000
+Sorcier de glace,14,Troupe,0,0,❄️🧙,#000000
+Pêcheur,14,Troupe,0,0,🎣👨‍🦱,#000000
+Voleuse,14,Troupe,0,0,🗡️👧,#000000
+Mineur,14,Win condition,0,0,⛏️🪨,#B173EB
+Bûche,14,Sort,0,0,🌳🪵,#A9EAFE
+Golem,14,Win condition,0,0,🪨💪,#B173EB
+Géant gobelin,14,Win condition,1,0,👹💪,#B173EB
+Foreuse gobeline,14,Win condition,1,0,⛏️👹,#B173EB
+Poison,14,Sort,0,0,☠️🧪,#A9EAFE
+Bébé dragon,14,Troupe,0,0,🐉👶,#000000
+Prince ténébreux,14,Troupe,0,0,🏇🌑,#000000
+Sapeurs,14,Win condition,0,0,💣👷,#B173EB
+Cochons royaux,14,Win condition,1,0,🐖👑,#B173EB
+Géant,14,Win condition,0,0,💪👑,#B173EB
+Valkyrie,14,Troupe,1,0,🪓👸,#000000
+Boule de feu,14,Sort,0,0,🔥💣,#A9EAFE
+Chevaucheur de cochon,14,Win condition,0,0,🐖🏇,#B173EB
+Gobelin explosif,14,Troupe,0,0,💣👹,#000000
+Gobelin à sarbacane,14,Troupe,1,0,🎯👹,#000000
+Séisme,14,Sort,0,0,🌍💥,#A9EAFE
+Golem d’élixir,14,Win condition,0,0,💧🪨,#B173EB
+Esprit de soin,14,Troupe,0,0,💖👻,#000000
+Recrues royales,14,Troupe,0,0,🏰⚔️,#000000
+Géant royal,14,Win condition,0,0,💪👑,#B173EB
+Mortier,14,Win condition,1,0,🎯💣,#B173EB
+Tesla,14,Bâtiment,1,0,⚡🔧,#DF6D14
+Fut à squelettes,14,Win condition,0,0,⚰️💀,#B173EB
+Gargouilles,14,Troupe,0,0,🦇🪨,#000000
+Mega boule de neige,14,Sort,1,0,❄️💥,#A9EAFE
+Chauves-souris,14,Troupe,0,0,🦇👶,#000000
+Squelettes,14,Troupe,1,0,💀💀,#000000
+Esprit électrique,14,Troupe,0,0,⚡👻,#000000
+Esprit de glace,14,Troupe,1,0,❄️👻,#000000
+Esprit de feu,14,Troupe,0,0,🔥👻,#000000
+Chevalier d'or,13,Troupe,0,1,⚔️🥇,#000000
+Fantôme royal,13,Troupe,1,0,👻👑,#000000
+Rage,13,Sort,0,0,😡💨,#A9EAFE
+Miroir,13,Sort,0,0,🪞✨,#A9EAFE
+Trois mousquetaires,13,Troupe,0,0,🔫🔫,#000000
+Roquette,13,Sort,0,0,🚀💥,#A9EAFE
+Sorcier,13,Troupe,1,0,🧙‍♂️✨,#000000
+Tour de l'enfer,13,Bâtiment,0,0,🔥🏰,#DF6D14
+Mousquetaire,13,Troupe,0,0,🏹🧝,#000000
+Cabane de gobelins,13,Bâtiment,0,0,🏠👹,#DF6D14
+Buisson suspect,13,Win condition,0,0,🌿👀,#B173EB
+Barbares,13,Troupe,1,0,🪓🪓,#000000
+Colis royal,13,Sort,0,0,📦👑,#A9EAFE
+Gobelins à lances,13,Troupe,0,0,🗡️👹,#000000
+Bombardier,13,Troupe,1,0,💣🧔,#000000
+Cheffe des voleuses,12,Troupe,0,1,🗡️👸,#000000
+Reine des archers,12,Troupe,0,1,🏹👸,#000000
+Maître mineur,12,Troupe,0,1,⛏️🧙,#000000
+Petit prince,12,Troupe,0,1,🏇👑,#000000
+Méga-chevalier,12,Troupe,0,0,⚔️💪,#000000
+Machine gobeline,12,Troupe,0,0,⚙️👹,#000000
+Mamie Sorcière,12,Troupe,0,0,👵🧙‍♀️,#000000
+P.E.K.K.A,12,Troupe,0,0,🤖⚔️,#000000
+Foudre,12,Sort,0,0,⚡🌩️,#A9EAFE
+Électro dragon,12,Troupe,1,0,⚡🐉,#000000
+Sorcière,13,Troupe,1,0,🧙‍♀️✨,#000000
+Bouliste,12,Troupe,0,0,💣🛡️,#000000
+Bourreau,12,Troupe,0,0,🪓💀,#000000
+Charette à canon,12,Troupe,0,0,🛻💣,#000000
+Chasseur,12,Troupe,1,0,🏹🦌,#000000
+Tornade,12,Sort,0,0,🌪️💨,#A9EAFE
+Armée de squelettes,12,Troupe,0,0,💀⚔️,#000000
+Fut à barbares,12,Sort,0,0,🛢️🪓,#A9EAFE
+Extracteur d’élixir,12,Bâtiment,0,0,💧🏭,#DF6D14
+Cage gobeline,12,Bâtiment,0,0,🏠👹,#DF6D14
+Pierre tombale,12,Bâtiment,0,0,⚰️🪨,#DF6D14
+Barbares d’élite,12,Troupe,0,0,🪓💪,#000000
+Frippons,12,Troupe,0,0,🏃‍♂️💨,#000000
+Zap,12,Sort,0,0,⚡💥,#A9EAFE
+Gobelins,12,Troupe,0,0,👹👹,#000000
+Berserker,12,Troupe,0,0,😡🪓,#000000
+Moine,11,Troupe,0,1,🧘‍♂️🥋,#000000
+Molosse de lave,11,Win condition,0,0,🐕🔥,#B173EB
+Zappy,11,Troupe,0,0,⚡🤖,#000000
+Impératrice spirituelle,11,Troupe,0,0,👑👻,#000000
+Cavabélier,11,Win condition,0,0,🐴🛡️,#B173EB
+Bûcheron,11,Troupe,0,0,🪓🪵,#000000
+Archer magique,11,Troupe,0,0,🏹✨,#000000
+Phénix,11,Troupe,0,0,🔥🦅,#000000
+Dragon de l'enfer,11,Troupe,0,0,🔥🐉,#000000
+Électro géant,11,Win condition,0,0,⚡💪,#B173EB
+Géant squelette,11,Troupe,0,0,💀💪,#000000
+Ballon,11,Win condition,0,0,🎈💣,#B173EB
+Prince,11,Troupe,0,0,🏇👑,#000000
+Gel,11,Sort,0,0,❄️💨,#A9EAFE
+Géante runique,11,Win condition,0,0,💪🔮,#B173EB
+Clone,11,Sort,0,0,👥✨,#A9EAFE
+Néant,11,Sort,0,0,🌌💀,#A9EAFE
+Malédiction gobeline,11,Sort,0,0,👹☠️,#A9EAFE
+Cabane de barbares,11,Bâtiment,0,0,🏠🪓,#DF6D14
+Machine volante,11,Troupe,0,0,🛩️⚙️,#000000
+Tour à bombe,11,Bâtiment,0,0,🏰💣,#DF6D14
+Électrocuteurs,11,Troupe,0,0,⚡🗡️,#000000
+Bélier de combat,11,Win condition,0,0,🐏⚔️,#B173EB
+Fournaise,11,Troupe,0,0,🔥🏭,#000000
+Guérisseuse armée,11,Troupe,0,0,💖⚔️,#000000
+Mini P.E.K.K.A,11,Troupe,0,0,🤖🪓,#000000
+Méga gargouille,11,Troupe,0,0,🦇💪,#000000
+Golem de glace,11,Troupe,0,0,❄️🪨,#000000
+Horde de gargouilles,11,Troupe,0,0,🦇🦇,#000000
+Dragons squelettes,11,Troupe,0,0,🐉💀,#000000
+Ronces,11,Sort,0,0,🌿🗡️,#A9EAFE

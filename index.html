@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CR - Deck Aléatoire</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="shortcut icon" href="images/icone_cr.png">
+</head>
+<body style="background-image: url('images/background.jpg'); background-size: cover; background-attachment: fixed; background-position: 47%;">
+
+    <nav class="navbar navbar-expand bg-light" style="padding-left: 2%;">
+    <form id="deckForm" class="d-flex flex-wrap gap-3 align-items-center">
+
+        <label class="mini-label" style="text-transform: uppercase;">Niveau min
+            <input type="number" id="niveauMin" min="1" max="16" value="11" class="mini-input">
+        </label>
+
+        <label class="mini-label" style="color: #B173EB;"><b>Win conditions</b>
+            <input type="number" id="winCond" min="0" max="8" value="1" class="mini-input">
+        </label>
+
+        <label class="mini-label" style="color: #A9EAFE;"><b>Sorts</b>
+            <input type="number" id="sorts" min="0" max="8" value="2" class="mini-input">
+        </label>
+
+        <label class="mini-label" style="color: #DF6D14;"><b>Bâtiments</b>
+            <input type="number" id="batiments" min="0" max="8" value="1" class="mini-input">
+        </label>
+
+        <label class="mini-label" style="color: rgba(155, 89, 182);"><i>Évolutions</i>
+            <input type="number" id="evolution" min="0" max="2" value="0" class="mini-input">
+        </label>
+
+        <label class="mini-label" style="color: rgba(241, 196, 15);"><i>Capacités</i>
+            <input type="number" id="capacite" min="0" max="2" value="0" class="mini-input">
+        </label>
+        <button type="submit" class="btn btn-primary" style="margin-left: auto;">Générer</button>
+    </form>
+</nav>
+
+    <div id="deckContainer" class="row" style="margin-top: 5%;"></div>
+
+
+    <script src="script.js"></script>
+    <script src="bootstrap/bootstrap.js"></script>
+</body>
+</html>

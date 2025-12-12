@@ -1,0 +1,108 @@
+/* Container deck : grille */
+#deckContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cartes */
+    gap: 7rem;
+    width: 100%;
+    max-width: 1200px;      /* limite responsive propre */
+    margin: 1rem auto;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+/* Carte CR (ratio 2.5/3.5) */
+.carte {
+    width: 100%;               
+    aspect-ratio: 2.5 / 3.5;   
+    background: rgba(255,255,255,0.15);
+    border: 2px solid rgba(255,255,255,0.25);
+    border-radius: 1rem;
+    backdrop-filter: blur(5px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.carte .icone {
+    font-size: 2.4rem;
+}
+
+.carte .nom {
+    margin-top: 0.4rem;
+    text-align: center;
+}
+
+/* Évolution violette */
+.carte.evo {
+    background: rgba(155, 89, 182, 0.18);
+    border-color: rgba(155, 89, 182, 0.35);
+    box-shadow: 0 0 0.6rem rgba(155, 89, 182, 0.4);
+}
+
+/* Capacité dorée */
+.carte.cap {
+    background: rgba(241, 196, 15, 0.18);
+    border-color: rgba(241, 196, 15, 0.35);
+    box-shadow: 0 0 0.6rem rgba(241, 196, 15, 0.4);
+}
+
+/* Les deux */
+.carte.evo.cap {
+    background: linear-gradient(
+        135deg,
+        rgba(155, 89, 182, 0.22),
+        rgba(241, 196, 15, 0.22)
+    );
+    border-color: rgba(200, 150, 200, 0.4);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    #deckContainer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .carte .icone {
+        font-size: 2rem;
+    }
+
+    .carte {
+        font-size: 0.95rem;
+    }
+}
+
+/* Petit mobile */
+@media (max-width: 480px) {
+    #deckContainer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.8rem;
+    }
+
+    .carte .icone {
+        font-size: 1.7rem;
+    }
+
+    .carte {
+        font-size: 0.85rem;
+    }
+}
+
+/* Mini-inputs */
+.mini-label {
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.mini-input {
+    width: 100%;
+    height: 1.8rem;
+    font-size: 0.8rem;
+    padding: 0.2rem 0.4rem;
+}
