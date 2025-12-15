@@ -2,7 +2,7 @@ nom,niveau,categorie,evolution,capacite,icone,couleur,identifiant,elixir
 Princesse,16,Troupe,0,0,🏹👸,#000000,26000026,3
 Chevalier,16,Troupe,1,1,⚔️🤴,#000000,26000000,3
 Arc X,15,Win condition,0,0,🎯🏹,#B173EB,27000008,6
-Fut de gobelins,15,Win condition,0,0,🛢️👹,#B173EB,27000001,3
+Fut de gobelins,15,Win condition,0,0,🛢️👹,#B173EB,28000004,3
 Gardes,15,Troupe,0,0,🛡️🗡️,#000000,26000025,3
 Flèches,15,Sort,0,0,🏹💨,#A9EAFE,28000001,3
 Gang de gobelins,15,Troupe,0,0,👹👹,#000000,26000041,3
@@ -21,7 +21,7 @@ Mineur,14,Win condition,0,0,⛏️🪨,#B173EB,26000032,3
 Bûche,14,Sort,0,0,🌳🪵,#A9EAFE,28000011,2
 Golem,14,Win condition,0,0,🪨💪,#B173EB,26000009,8
 Géant gobelin,14,Win condition,1,0,👹💪,#B173EB,26000060,6
-Foreuse gobeline,14,Win condition,1,0,⛏️👹,#B173EB,26000096,4
+Foreuse gobeline,14,Win condition,1,0,⛏️👹,#B173EB,27000013,4
 Poison,14,Sort,0,0,☠️🧪,#A9EAFE,28000009,4
 Bébé dragon,14,Troupe,0,0,🐉👶,#000000,26000015,4
 Prince ténébreux,14,Troupe,0,0,🏇🌑,#000000,26000027,4
