@@ -11,44 +11,98 @@
 
 <nav class="navbar navbar-expand bg-light" style="padding-left: 2%; padding-right: 2%;">
     <form id="deckForm" class="d-flex flex-wrap gap-3 align-items-center">
+        <label class="form-label" style="text-transform: uppercase;">Niveau min
+                <input class="form-control" type="number" id="niveauMin" min="1" max="16" value="14" class="mini-input">
+            </label>
+            
+            <label class="form-label" style="color: #B173EB;"><b>Win conditions</b>
+                <input class="form-control" type="number" id="winCond" min="0" max="8" value="1" class="mini-input">
+            </label>
 
-        <label class="mini-label" style="text-transform: uppercase;">Niveau min
-            <input type="number" id="niveauMin" min="1" max="16" value="11" class="mini-input">
-        </label>
+            <label class="form-label" style="color: #A9EAFE;"><b>Sorts</b>
+                <input class="form-control" type="number" id="sorts" min="0" max="8" value="2" class="mini-input">
+            </label>
 
-        <label class="mini-label" style="color: #B173EB; border-left: 1px solid black; padding-left: 10px;"><b>Win conditions</b>
-            <input type="number" id="winCond" min="0" max="8" value="1" class="mini-input">
-        </label>
+            <label class="form-label" style="color: #DF6D14;"><b>Bâtiments</b>
+                <input class="form-control" type="number" id="batiments" min="0" max="8" value="0" class="mini-input">
+            </label>
 
-        <label class="mini-label" style="color: #A9EAFE;"><b>Sorts</b>
-            <input type="number" id="sorts" min="0" max="8" value="2" class="mini-input">
-        </label>
+            <label class="form-label" style="color: #000000;"><b>Troupes</b>
+                <input class="form-control" type="number" id="troupes" min="0" max="8" value="2" class="mini-input">
+            </label>
 
-        <label class="mini-label" style="color: #DF6D14;"><b>Bâtiments</b>
-            <input type="number" id="batiments" min="0" max="8" value="1" class="mini-input">
-        </label>
+            <label class="form-label" style="color: rgba(155, 89, 182);"><i>Évolutions</i>
+                <input class="form-control" type="number" id="evolution" min="0" max="2" value="2" class="mini-input">
+            </label>
 
-        <label class="mini-label" style="color: #000000; border-right: 1px solid black; padding-right: 10px;"><b>Troupes</b>
-            <input type="number" id="troupes" min="0" max="8" value="4" class="mini-input">
-        </label>
-
-        <label class="mini-label" style="color: rgba(155, 89, 182);"><i>Évolutions</i>
-            <input type="number" id="evolution" min="0" max="2" value="0" class="mini-input">
-        </label>
-
-        <label class="mini-label" style="color: rgba(241, 196, 15);"><i>Capacités</i>
-            <input type="number" id="capacite" min="0" max="2" value="0" class="mini-input">
-        </label>
-        <button type="submit" class="btn btn-outline-primary">Générer</button>
-    
+            <label class="form-label" style="color: rgba(241, 196, 15);"><i>Capacités</i>
+                <input class="form-control" type="number" id="capacite" min="0" max="2" value="1" class="mini-input">
+            </label>
+            <button type="submit" class="btn btn-outline-primary">Générer</button>
     </form>
         <b class="elixmoy" id="avg">~</b>
         <b id="deckName" style="margin-left: 0.5%;">...</b>
-        <button class="btn btn-outline-warning" style="margin-left: auto;">Copier</button>
+        <button class="btn btn-outline-warning pc" style="margin-left: auto;">Copier</button>
 </nav>
-    
-    <div id="deckContainer" class="row" style="margin-top: 5%;"></div>
 
+<div class="accordion" id="accordionFilter">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        🃏 Contenu du deck 🃏
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+
+        <form id="deckFormMob" class="deck-form-mob">
+
+            <label class="form-label niveauMob" style="text-transform: uppercase;">Niveau min
+                <input class="form-control" type="number" id="niveauMinMob" min="1" max="16" value="14">
+            </label>
+
+            <label class="form-label winMob" style="color: #B173EB;"><b>Win conditions</b>
+                <input class="form-control" type="number" id="winCondMob" min="0" max="8" value="1">
+            </label>
+
+            <label class="form-label sortsMob" style="color: #A9EAFE;"><b>Sorts</b>
+                <input class="form-control" type="number" id="sortsMob" min="0" max="8" value="2">
+            </label>
+
+            <label class="form-label batMob" style="color: #DF6D14;"><b>Bâtiments</b>
+                <input class="form-control" type="number" id="batimentsMob" min="0" max="8" value="0">
+            </label>
+
+            <label class="form-label troupesMob" style="color: #000000;"><b>Troupes</b>
+                <input class="form-control" type="number" id="troupesMob" min="0" max="8" value="2">
+            </label>
+
+            <label class="form-label evoMob" style="color: rgba(155, 89, 182);"><i>Évolutions</i>
+                <input class="form-control" type="number" id="evolutionMob" min="0" max="2" value="2">
+            </label>
+
+            <label class="form-label capMob" style="color: rgba(241, 196, 15);"><i>Capacités</i>
+                <input class="form-control" type="number" id="capaciteMob" min="0" max="2" value="1">
+            </label>
+
+            <button type="submit" class="btn btn-outline-primary generate">Générer</button>
+
+        </form>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <div class="infos">
+        <b class="elixmoy" id="avgMob">~</b>
+        <b id="deckNameMob" style="margin-left: 0.5%;">...</b>
+    </div>
+    <div id="deckContainer" class="row" style="margin-top: 5%;"></div>
+    <div class="infos">
+        <button class="btn btn-outline-warning mobile" style="margin-left: auto;">Copier</button>
+    </div>
 
     <script src="script.js"></script>
     <script src="bootstrap/bootstrap.js"></script>

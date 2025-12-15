@@ -126,8 +126,6 @@ const cartes = [
   { nom:"Ronces", niveau:11, categorie:"Sort", evolution:0, capacite:0, icone:"🌿🗡️", couleur:"#A9EAFE", identifiant:28000026, elixir:3 }
 ];
 
-
-
 // Écoute du formulaire
 deckForm.addEventListener('submit', e => {
     e.preventDefault();
@@ -149,6 +147,30 @@ deckForm.addEventListener('submit', e => {
     }
 
     const deck = genererDeck(niveauMin, winCond, sorts, batiments, troupes, evolution, capacite);
+    afficherDeck(deck);
+});
+
+// Écoute du formulaire mobile
+deckFormMob.addEventListener('submit', em => {
+    em.preventDefault();
+
+    const niveauMinMob = parseInt(document.getElementById('niveauMinMob').value);
+    const winCondMob = parseInt(document.getElementById('winCondMob').value);
+    const sortsMob = parseInt(document.getElementById('sortsMob').value);
+    const batimentsMob = parseInt(document.getElementById('batimentsMob').value);
+    const troupesMob = parseInt(document.getElementById('troupesMob').value);
+    const evolutionMob = parseInt(document.getElementById('evolutionMob').value);
+    const capaciteMob = parseInt(document.getElementById('capaciteMob').value);
+
+    const totalDemandesMob = winCondMob + sortsMob + batimentsMob + troupesMob + evolutionMob + capaciteMob;
+
+    if (totalDemandesMob > 8) {
+        const surplus = totalDemandesMob - 8;
+        alert("Trop de cartes demandées : " + surplus + " en trop.");
+        return;
+    }
+
+    const deck = genererDeck(niveauMinMob, winCondMob, sortsMob, batimentsMob, troupesMob, evolutionMob, capaciteMob);
     afficherDeck(deck);
 });
 
@@ -199,6 +221,7 @@ function genererDeck(niveauMin, winCond, sorts, batiments, troupes, evolution, c
 
     // Afficher dans le div avec id "avg"
     document.getElementById("avg").innerText = `${avgElixir}`;
+    document.getElementById("avgMob").innerText = `${avgElixir}`;
 
     // Générer le nom du deck
     let win = deck.find(c => c.categorie.toLowerCase() === 'win condition');
@@ -219,6 +242,7 @@ function genererDeck(niveauMin, winCond, sorts, batiments, troupes, evolution, c
     }
 
     document.getElementById("deckName").innerText = deckName;
+    document.getElementById("deckNameMob").innerText = deckName;
 
     return deck;
 }
@@ -246,7 +270,8 @@ function afficherDeck(deck) {
 /////////////////// copier deck ////////////////////////////////////
 
 // Sélection du bouton
-const boutonCopier = document.querySelector('.btn.btn-outline-warning');
+const boutonCopier = document.querySelector('.btn.btn-outline-warning.pc');
+const boutonCopierMob = document.querySelector('.btn.btn-outline-warning.mobile');
 
 // Fonction pour générer le lien de partage
 function genererLien(deck) {
@@ -259,6 +284,23 @@ function genererLien(deck) {
 
 // Événement sur le bouton
 boutonCopier.addEventListener('click', () => {
+    if (!deckContainer.innerHTML) {
+        alert("Générez d'abord un deck !");
+        return;
+    }
+
+    // On récupère les cartes affichées dans le deck
+    const deck = Array.from(deckContainer.children).map(div => {
+        const nom = div.querySelector('.nom').textContent;
+        return cartes.find(c => c.nom === nom);
+    });
+
+    const lien = genererLien(deck);
+    if (lien) window.open(lien, '_blank');
+});
+
+// Événement sur le bouton mobile
+boutonCopierMob.addEventListener('click', () => {
     if (!deckContainer.innerHTML) {
         alert("Générez d'abord un deck !");
         return;
