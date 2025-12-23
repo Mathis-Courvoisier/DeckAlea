@@ -33,7 +33,7 @@ const cartes = [
   { nom:"Cochons royaux", niveau:14, categorie:"Win condition", evolution:1, capacite:0, icone:"🐖👑", couleur:"#B173EB", identifiant:26000059, elixir:5 },
   { nom:"Géant", niveau:14, categorie:"Win condition", evolution:0, capacite:0, icone:"💪👑", couleur:"#B173EB", identifiant:26000003, elixir:5 },
   { nom:"Valkyrie", niveau:14, categorie:"Troupe", evolution:1, capacite:0, icone:"🪓👸", couleur:"#000000", identifiant:26000011, elixir:4 },
-  { nom:"Boule de feu", niveau:14, categorie:"Sort", evolution:0, capacite:0, icone:"🔥💣", couleur:"#A9EAFE", identifiant:28000000, elixir:4 },
+  { nom:"Boule de feu", niveau:15, categorie:"Sort", evolution:0, capacite:0, icone:"🔥💣", couleur:"#A9EAFE", identifiant:28000000, elixir:4 },
   { nom:"Chevaucheur de cochon", niveau:14, categorie:"Win condition", evolution:0, capacite:0, icone:"🐖🏇", couleur:"#B173EB", identifiant:26000021, elixir:4 },
   { nom:"Gobelin explosif", niveau:14, categorie:"Troupe", evolution:0, capacite:0, icone:"💣👹", couleur:"#000000", identifiant:26000095, elixir:4 },
   { nom:"Gobelin à sarbacane", niveau:14, categorie:"Troupe", evolution:1, capacite:0, icone:"🎯👹", couleur:"#000000", identifiant:26000040, elixir:3 },
