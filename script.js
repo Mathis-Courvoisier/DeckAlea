@@ -116,7 +116,7 @@ const cartes = [
   { nom:"Tour à bombe", niveau:11, categorie:"Bâtiment", evolution:0, capacite:0, icone:"🏰💣", couleur:"#DF6D14", identifiant:27000004, elixir:4 },
   { nom:"Électrocuteurs", niveau:11, categorie:"Troupe", evolution:0, capacite:0, icone:"⚡🗡️", couleur:"#000000", identifiant:26000052, elixir:4 },
   { nom:"Bélier de combat", niveau:11, categorie:"Win condition", evolution:0, capacite:0, icone:"🐏⚔️", couleur:"#B173EB", identifiant:26000036, elixir:4 },
-  { nom:"Fournaise", niveau:11, categorie:"Troupe", evolution:0, capacite:0, icone:"🔥🏭", couleur:"#000000", identifiant:27000010, elixir:4 },
+  { nom:"Fournaise", niveau:14, categorie:"Troupe", evolution:1, capacite:0, icone:"🔥🏭", couleur:"#000000", identifiant:27000010, elixir:4 },
   { nom:"Guérisseuse armée", niveau:11, categorie:"Troupe", evolution:0, capacite:0, icone:"💖⚔️", couleur:"#000000", identifiant:26000068, elixir:4 },
   { nom:"Mini P.E.K.K.A", niveau:11, categorie:"Troupe", evolution:0, capacite:0, icone:"🤖🪓", couleur:"#000000", identifiant:26000018, elixir:4 },
   { nom:"Méga gargouille", niveau:11, categorie:"Troupe", evolution:0, capacite:0, icone:"🦇💪", couleur:"#000000", identifiant:26000039, elixir:3 },
