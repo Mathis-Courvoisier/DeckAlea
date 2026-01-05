@@ -123,6 +123,16 @@
         <button class="btn btn-outline-warning mobile" style="margin-left: auto;">Copier</button>
     </div>
 
+    <script>
+        document.getElementById("deckFormMob").addEventListener("submit", function () {
+            const collapse = document.getElementById("collapseOne");
+            const bsCollapse = bootstrap.Collapse.getInstance(collapse) || new bootstrap.Collapse(collapse, { toggle: false });
+
+            bsCollapse.hide();
+        });
+    </script>
+
+
     <script src="script.js"></script>
     <script src="bootstrap/bootstrap.js"></script>
 </body>
