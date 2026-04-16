@@ -1,122 +1,122 @@
 nom,niveau,categorie,evolution,capacite,icone,couleur,identifiant,elixir
-Princesse,16,Troupe,0,0,🏹👸,#000000,26000026,3
+Boule de feu,16,Sort,0,0,🔥💣,#A9EAFE,28000000,4
 Chevalier,16,Troupe,1,1,⚔️🤴,#000000,26000000,3
-Arc X,15,Win condition,0,0,🎯🏹,#B173EB,27000008,6
-Fut de gobelins,16,Win condition,0,0,🛢️👹,#B173EB,28000004,3
-Gardes,15,Troupe,0,0,🛡️🗡️,#000000,26000025,3
-Flèches,15,Sort,0,0,🏹💨,#A9EAFE,28000001,3
+Esprit de glace,16,Troupe,1,0,❄️👻,#000000,26000030,1
 Gang de gobelins,16,Troupe,0,0,👹👹,#000000,26000041,3
-Artificière,15,Troupe,1,0,💣👧,#000000,26000064,3
+Princesse,16,Troupe,0,0,🏹👸,#000000,26000026,3
+Fut de gobelins,16,Win condition,0,0,🛢️👹,#B173EB,27000001,3
 Canon,15,Bâtiment,0,0,🎯💣,#DF6D14,27000000,3
+Flèches,15,Sort,0,0,🏹💨,#A9EAFE,28000001,3
+Bûche,15,Sort,0,0,🌳🪵,#A9EAFE,28000011,2
 Archers,15,Troupe,1,0,🏹🏹,#000000,26000001,3
+Artificière,15,Troupe,1,0,💣👧,#000000,26000064,3
+Gobelin à sarbacane,15,Troupe,1,0,🎯👹,#000000,26000040,3
+Gardes,15,Troupe,0,0,🛡️🗡️,#000000,26000025,3
+Voleuse,15,Troupe,0,0,🗡️👧,#000000,26000046,3
+Arc X,15,Win condition,0,0,🎯🏹,#B173EB,27000008,6
+Sapeurs,15,Win condition,0,0,💣👷,#B173EB,26000058,2
+Tesla,14,Bâtiment,1,0,⚡🔧,#DF6D14,27000006,4
+Fut à barbares,14,Sort,0,1,🛢️🪓,#A9EAFE,27000005,2
+Mega boule de neige,14,Sort,1,0,❄️💥,#A9EAFE,28000017,2
+Poison,14,Sort,0,0,☠️🧪,#A9EAFE,28000009,4
+Séisme,14,Sort,0,0,🌍💥,#A9EAFE,28000014,3
+Tornade,14,Sort,0,0,🌪️💨,#A9EAFE,28000012,3
+Foudre,14,Sort,0,0,⚡🌩️,#A9EAFE,28000007,6
 Gobelinstein,14,Troupe,0,1,🤖👹,#000000,26000099,5
 Roi squelette,14,Troupe,0,1,💀👑,#000000,26000069,4
-Cimetière,14,Win condition,0,0,⚰️👻,#B173EB,28000010,5
+Gobelins,14,Troupe,0,1,👹👹,#000000,26000002,2
+Méga gargouille,14,Troupe,0,1,🦇💪,#000000,26000039,3
+Fournaise,14,Troupe,1,0,🔥🏭,#000000,27000010,4
+Sorcière,14,Troupe,1,0,🧙‍♀️✨,#000000,26000007,5
+Squelettes,14,Troupe,1,0,💀💀,#000000,26000010,1
+Valkyrie,14,Troupe,1,0,🪓👸,#000000,26000011,4
+P.E.K.K.A,14,Troupe,1,0,🤖⚔️,#000000,26000004,7
+Bébé dragon,14,Troupe,0,0,🐉👶,#000000,26000015,4
+Chauves-souris,14,Troupe,0,0,🦇👶,#000000,26000049,2
+Esprit de feu,14,Troupe,0,0,🔥👻,#000000,26000031,1
+Esprit de soin,14,Troupe,0,0,💖👻,#000000,26000068,1
+Esprit électrique,14,Troupe,0,0,⚡👻,#000000,26000084,1
+Gargouilles,14,Troupe,0,0,🦇🪨,#000000,26000005,3
+Gobelin explosif,14,Troupe,0,0,💣👹,#000000,26000095,4
+Pêcheur,14,Troupe,0,0,🎣👨‍🦱,#000000,26000061,3
+Prince ténébreux,14,Troupe,0,0,🏇🌑,#000000,26000027,4
+Recrues royales,14,Troupe,0,0,🏰⚔️,#000000,26000047,7
+Sorcier de glace,14,Troupe,0,0,❄️🧙,#000000,26000023,3
 Sorcier électrique,14,Troupe,0,0,⚡🧙,#000000,26000042,4
 Sorcière de la nuit,14,Troupe,0,0,🌙🧙‍♀️,#000000,26000048,4
-Sorcier de glace,14,Troupe,0,0,❄️🧙,#000000,26000023,3
-Pêcheur,14,Troupe,0,0,🎣👨‍🦱,#000000,26000061,3
-Voleuse,14,Troupe,0,0,🗡️👧,#000000,26000046,3
-Mineur,14,Win condition,0,0,⛏️🪨,#B173EB,26000032,3
-Bûche,14,Sort,0,0,🌳🪵,#A9EAFE,28000011,2
-Golem,14,Win condition,0,0,🪨💪,#B173EB,26000009,8
-Géant gobelin,14,Win condition,1,0,👹💪,#B173EB,26000060,6
-Foreuse gobeline,14,Win condition,1,0,⛏️👹,#B173EB,27000013,4
-Poison,14,Sort,0,0,☠️🧪,#A9EAFE,28000009,4
-Bébé dragon,14,Troupe,0,0,🐉👶,#000000,26000015,4
-Prince ténébreux,14,Troupe,0,0,🏇🌑,#000000,26000027,4
-Sapeurs,14,Win condition,0,0,💣👷,#B173EB,26000058,2
 Cochons royaux,14,Win condition,1,0,🐖👑,#B173EB,26000059,5
-Géant,14,Win condition,0,0,💪👑,#B173EB,26000003,5
-Valkyrie,14,Troupe,1,0,🪓👸,#000000,26000011,4
-Boule de feu,16,Sort,0,0,🔥💣,#A9EAFE,28000000,4
-Chevaucheur de cochon,14,Win condition,0,0,🐖🏇,#B173EB,26000021,4
-Gobelin explosif,14,Troupe,0,0,💣👹,#000000,26000095,4
-Gobelin à sarbacane,14,Troupe,1,0,🎯👹,#000000,26000040,3
-Séisme,14,Sort,0,0,🌍💥,#A9EAFE,28000014,3
-Golem d’élixir,14,Win condition,0,0,💧🪨,#B173EB,26000067,3
-Esprit de guérison,14,Troupe,0,0,💖👻,#000000,28000016,1
-Recrues royales,14,Troupe,0,0,🏰⚔️,#000000,26000047,7
-Géant royal,14,Win condition,0,0,💪👑,#B173EB,26000024,6
+Foreuse gobeline,14,Win condition,1,0,⛏️👹,#B173EB,26000096,4
+Fut à squelettes,14,Win condition,1,0,⚰️💀,#B173EB,27000009,3
+Géant gobelin,14,Win condition,1,0,👹💪,#B173EB,26000060,6
 Mortier,14,Win condition,1,0,🎯💣,#B173EB,27000002,4
-Tesla,14,Bâtiment,1,0,⚡🔧,#DF6D14,27000006,4
-Fut à squelettes,14,Win condition,0,0,⚰️💀,#B173EB,27000009,3
-Gargouilles,14,Troupe,0,0,🦇🪨,#000000,26000005,3
-Mega boule de neige,14,Sort,1,0,❄️💥,#A9EAFE,28000017,2
-Chauves-souris,14,Troupe,0,0,🦇👶,#000000,26000049,2
-Squelettes,14,Troupe,1,0,💀💀,#000000,26000010,1
-Esprit électrique,14,Troupe,0,0,⚡👻,#000000,26000084,1
-Esprit de glace,14,Troupe,1,0,❄️👻,#000000,26000030,1
-Esprit de feu,14,Troupe,0,0,🔥👻,#000000,26000031,1
-Chevalier d'or,13,Troupe,0,1,⚔️🥇,#000000,26000074,4
-Fantôme royal,13,Troupe,1,0,👻👑,#000000,26000050,3
-Rage,13,Sort,0,0,😡💨,#A9EAFE,28000002,2
-Miroir,13,Sort,0,0,🪞✨,#A9EAFE,28000006,0
-Trois mousquetaires,13,Troupe,0,0,🔫🔫,#000000,26000028,9
-Roquette,13,Sort,0,0,🚀💥,#A9EAFE,28000003,6
-Sorcier,13,Troupe,1,0,🧙‍♂️✨,#000000,26000017,5
-Tour de l'enfer,13,Bâtiment,0,0,🔥🏰,#DF6D14,27000003,5
-Mousquetaire,13,Troupe,0,0,🏹🧝,#000000,26000014,4
+Chevaucheur de cochon,14,Win condition,0,0,🐖🏇,#B173EB,26000021,4
+Cimetière,14,Win condition,0,0,⚰️👻,#B173EB,28000010,5
+Géant,14,Win condition,0,0,💪👑,#B173EB,26000003,5
+Géant royal,14,Win condition,0,0,💪👑,#B173EB,26000024,6
+Golem,14,Win condition,0,0,🪨💪,#B173EB,26000009,8
+Golem d’élixir,14,Win condition,0,0,💧🪨,#B173EB,26000067,3
+Mineur,14,Win condition,0,0,⛏️🪨,#B173EB,26000032,3
+Bélier de combat,14,Win condition,0,0,🐏⚔️,#B173EB,26000036,4
 Cabane de gobelins,13,Bâtiment,0,0,🏠👹,#DF6D14,27000001,4
-Buisson suspect,13,Win condition,0,0,🌿👀,#B173EB,26000097,2
-Barbares,13,Troupe,1,0,🪓🪓,#000000,26000008,5
+Tour de l'enfer,13,Bâtiment,0,0,🔥🏰,#DF6D14,27000003,5
 Colis royal,13,Sort,0,0,📦👑,#A9EAFE,28000018,3
-Gobelins à lances,13,Troupe,0,0,🗡️👹,#000000,26000019,2
+Miroir,13,Sort,0,0,🪞✨,#A9EAFE,28000006,?
+Rage,13,Sort,0,0,😡💨,#A9EAFE,28000002,2
+Roquette,13,Sort,0,0,🚀💥,#A9EAFE,28000003,6
+Chevalier d'or,13,Troupe,0,1,⚔️🥇,#000000,26000074,4
+Mini P.E.K.K.A,13,Troupe,0,1,🤖🪓,#000000,26000018,4
+Cheffe des voleuses,13,Troupe,0,1,🗡️👸,#000000,26000103,6
+Archer magique,13,Troupe,0,1,🏹✨,#000000,26000062,4
+Barbares,13,Troupe,1,0,🪓🪓,#000000,26000008,5
 Bombardier,13,Troupe,1,0,💣🧔,#000000,26000013,2
-Cheffe des voleuses,12,Troupe,0,1,🗡️👸,#000000,26000103,6
-Reine des archers,12,Troupe,0,1,🏹👸,#000000,26000072,5
+Fantôme royal,13,Troupe,1,0,👻👑,#000000,26000050,3
+Mousquetaire,13,Troupe,1,0,🏹🧝,#000000,26000014,4
+Sorcier,13,Troupe,1,0,🧙‍♂️✨,#000000,26000017,5
+Gobelins à lances,13,Troupe,0,0,🗡️👹,#000000,26000019,2
+Trois mousquetaires,13,Troupe,0,0,🔫🔫,#000000,26000028,9
+Buisson suspect,13,Win condition,0,0,🌿👀,#B173EB,26000097,2
+Cage gobeline,12,Bâtiment,1,0,🏠👹,#DF6D14,27000012,4
+Extracteur d’élixir,12,Bâtiment,0,0,💧🏭,#DF6D14,27000007,6
+Pierre tombale,12,Bâtiment,0,0,⚰️🪨,#DF6D14,27000009,3
+Zap,12,Sort,0,0,⚡💥,#A9EAFE,28000008,2
 Maître mineur,12,Troupe,0,1,⛏️🧙,#000000,26000065,4
 Petit prince,12,Troupe,0,1,🏇👑,#000000,26000093,3
-Méga-chevalier,12,Troupe,0,0,⚔️💪,#000000,26000055,7
-Machine gobeline,12,Troupe,0,0,⚙️👹,#000000,26000096,5
-Mamie Sorcière,12,Troupe,0,0,👵🧙‍♀️,#000000,26000083,4
-P.E.K.K.A,12,Troupe,0,0,🤖⚔️,#000000,26000004,7
-Foudre,12,Sort,0,0,⚡🌩️,#A9EAFE,28000007,6
+Reine des archers,12,Troupe,0,1,🏹👸,#000000,26000072,5
+Chasseur,12,Troupe,1,0,🏹🦌,#000000,26000044,4
 Électro dragon,12,Troupe,1,0,⚡🐉,#000000,26000063,5
-Sorcière,14,Troupe,1,0,🧙‍♀️✨,#000000,26000007,5
+Armée de squelettes,12,Troupe,0,0,💀⚔️,#000000,26000012,3
+Barbares d’élite,12,Troupe,0,0,🪓💪,#000000,26000043,6
+Berserker,12,Troupe,0,0,😡🪓,#000000,26000102,2
 Bouliste,12,Troupe,0,0,💣🛡️,#000000,26000034,5
 Bourreau,12,Troupe,0,0,🪓💀,#000000,26000045,5
 Charette à canon,12,Troupe,0,0,🛻💣,#000000,26000054,5
-Chasseur,12,Troupe,1,0,🏹🦌,#000000,26000044,4
-Tornade,12,Sort,0,0,🌪️💨,#A9EAFE,28000012,3
-Armée de squelettes,12,Troupe,0,0,💀⚔️,#000000,26000012,3
-Fut à barbares,12,Sort,0,0,🛢️🪓,#A9EAFE,27000005,2
-Extracteur d’élixir,12,Bâtiment,0,0,💧🏭,#DF6D14,27000007,6
-Cage gobeline,12,Bâtiment,0,0,🏠👹,#DF6D14,27000012,4
-Pierre tombale,12,Bâtiment,0,0,⚰️🪨,#DF6D14,27000009,3
-Barbares d’élite,12,Troupe,0,0,🪓💪,#000000,26000043,6
 Frippons,12,Troupe,0,0,🏃‍♂️💨,#000000,26000053,5
-Zap,12,Sort,0,0,⚡💥,#A9EAFE,28000008,2
-Gobelins,12,Troupe,0,0,👹👹,#000000,26000002,2
-Berserker,12,Troupe,0,0,😡🪓,#000000,26000102,2
-Moine,11,Troupe,0,1,🧘‍♂️🥋,#000000,26000077,5
-Molosse de lave,11,Win condition,0,0,🐕🔥,#B173EB,26000029,7
-Zappy,11,Troupe,0,0,⚡🤖,#000000,26000052,6
-Impératrice spirituelle,11,Troupe,0,0,👑👻,#000000,28000025,6
-Cavabélier,11,Win condition,0,0,🐴🛡️,#B173EB,26000051,5
-Bûcheron,11,Troupe,0,0,🪓🪵,#000000,26000035,4
-Archer magique,11,Troupe,0,0,🏹✨,#000000,26000062,4
-Phénix,11,Troupe,0,0,🔥🦅,#000000,26000087,4
-Dragon de l'enfer,11,Troupe,0,0,🔥🐉,#000000,26000037,4
-Électro géant,11,Win condition,0,0,⚡💪,#B173EB,26000085,7
-Géant squelette,11,Troupe,0,0,💀💪,#000000,26000020,6
-Ballon,11,Win condition,0,0,🎈💣,#B173EB,26000006,5
-Prince,11,Troupe,0,0,🏇👑,#000000,26000016,5
-Gel,11,Sort,0,0,❄️💨,#A9EAFE,28000005,4
-Géante runique,11,Win condition,0,0,💪🔮,#B173EB,26000101,4
-Clone,11,Sort,0,0,👥✨,#A9EAFE,28000013,3
-Néant,11,Sort,0,0,🌌💀,#A9EAFE,28000023,3
-Malédiction gobeline,11,Sort,0,0,👹☠️,#A9EAFE,28000024,2
+Machine gobeline,12,Troupe,0,0,⚙️👹,#000000,26000096,5
+Mamie Sorcière,12,Troupe,0,0,👵🧙‍♀️,#000000,26000083,4
+Méga-chevalier,12,Troupe,0,0,⚔️💪,#000000,26000055,7
+Golem de glace,12,Troupe,0,0,❄️🪨,#000000,26000038,2
+Géante runique,12,Win condition,0,0,💪🔮,#B173EB,26000101,4
 Cabane de barbares,11,Bâtiment,0,0,🏠🪓,#DF6D14,27000005,6
-Machine volante,11,Troupe,0,0,🛩️⚙️,#000000,26000057,4
 Tour à bombe,11,Bâtiment,0,0,🏰💣,#DF6D14,27000004,4
-Électrocuteurs,11,Troupe,0,0,⚡🗡️,#000000,26000052,4
-Bélier de combat,11,Win condition,0,0,🐏⚔️,#B173EB,26000036,4
-Fournaise,14,Troupe,1,0,🔥🏭,#000000,27000010,4
-Guérisseuse armée,11,Troupe,0,0,💖⚔️,#000000,26000068,4
-Mini P.E.K.K.A,13,Troupe,0,1,🤖🪓,#000000,26000018,4
-Méga gargouille,11,Troupe,0,0,🦇💪,#000000,26000039,3
-Golem de glace,11,Troupe,0,0,❄️🪨,#000000,26000038,2
-Horde de gargouilles,11,Troupe,0,0,🦇🦇,#000000,26000022,5
-Dragons squelettes,11,Troupe,0,0,🐉💀,#000000,26000080,4
+Clone,11,Sort,0,0,👥✨,#A9EAFE,28000013,3
+Gel,11,Sort,0,0,❄️💨,#A9EAFE,28000005,4
+Malédiction gobeline,11,Sort,0,0,👹☠️,#A9EAFE,28000024,2
+Néant,11,Sort,0,0,🌌💀,#A9EAFE,28000023,3
 Ronces,11,Sort,0,0,🌿🗡️,#A9EAFE,28000026,3
+Moine,11,Troupe,0,1,🧘‍♂️🥋,#000000,26000077,5
+Bûcheron,11,Troupe,0,0,🪓🪵,#000000,26000035,4
+Dragon de l'enfer,11,Troupe,0,0,🔥🐉,#000000,26000037,4
+Dragons squelettes,11,Troupe,0,0,🐉💀,#000000,26000080,4
+Électrocuteurs,11,Troupe,0,0,⚡🗡️,#000000,26000052,4
+Géant squelette,11,Troupe,0,0,💀💪,#000000,26000020,6
+Guérisseuse armée,11,Troupe,0,0,💖⚔️,#000000,26000068,4
+Horde de gargouilles,11,Troupe,0,0,🦇🦇,#000000,26000022,5
+Impératrice spirituelle,11,Troupe,0,0,👑👻,#000000,26000025,3 ou 6
+Machine volante,11,Troupe,0,0,🛩️⚙️,#000000,26000057,4
+Phénix,11,Troupe,0,0,🔥🦅,#000000,26000087,4
+Prince,11,Troupe,0,0,🏇👑,#000000,26000016,5
+Zappy,11,Troupe,0,0,⚡🤖,#000000,26000052,6
+Ballon,11,Win condition,0,0,🎈💣,#B173EB,26000006,5
+Cavabélier,11,Win condition,0,0,🐴🛡️,#B173EB,26000051,5
+Électro géant,11,Win condition,0,0,⚡💪,#B173EB,26000085,7
+Molosse de lave,11,Win condition,0,0,🐕🔥,#B173EB,26000029,7
