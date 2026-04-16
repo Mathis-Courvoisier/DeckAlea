@@ -33,7 +33,7 @@ const cartes = [
   { nom:"Fournaise", niveau:14, categorie:"Troupe", evolution:1, capacite:0, icone:"🔥🏭", couleur:"#000000", identifiant:27000010, elixir:4 },
   { nom:"Sorcière", niveau:14, categorie:"Troupe", evolution:1, capacite:0, icone:"🧙‍♀️✨", couleur:"#000000", identifiant:26000007, elixir:5 },
   { nom:"Squelettes", niveau:14, categorie:"Troupe", evolution:1, capacite:0, icone:"💀💀", couleur:"#000000", identifiant:26000010, elixir:1 },
-  { nom:"Valkyrie", niveau:14, categorie:"Troupe", evolution:1, capacite:0, icone:"🪓👸", couleur:"#000000", identifiant:26000011, elixir:4 },
+  { nom:"Valkyrie", niveau:15, categorie:"Troupe", evolution:1, capacite:0, icone:"🪓👸", couleur:"#000000", identifiant:26000011, elixir:4 },
   { nom:"P.E.K.K.A", niveau:14, categorie:"Troupe", evolution:1, capacite:0, icone:"🤖⚔️", couleur:"#000000", identifiant:26000004, elixir:7 },
   { nom:"Bébé dragon", niveau:14, categorie:"Troupe", evolution:0, capacite:0, icone:"🐉👶", couleur:"#000000", identifiant:26000015, elixir:4 },
   { nom:"Chauves-souris", niveau:14, categorie:"Troupe", evolution:0, capacite:0, icone:"🦇👶", couleur:"#000000", identifiant:26000049, elixir:2 },
